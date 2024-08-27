@@ -1,0 +1,17 @@
+{
+  "name": "@lousanpang/eslint-config",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.27.3",
+    "eslint": "^9.9.1"
+  }
+}

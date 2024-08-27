@@ -1,0 +1,4 @@
+packages:
+  - 'apps/template/*'
+  - 'apps/h5/*'
+  - 'packages/*'

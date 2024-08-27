@@ -1,0 +1,11 @@
+{
+  "name": "@lousanpang/typescript-config",
+  "version": "1.0.0",
+  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@vue/tsconfig": "^0.5.1"
+  }
+}

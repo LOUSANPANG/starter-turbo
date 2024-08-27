@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    // essential
+    "Vue.Official",
+    "dbaeumer.vscode-eslint",
+    "vercel.turbo-vsc"
+  ]
+}

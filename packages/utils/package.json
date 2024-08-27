@@ -1,0 +1,22 @@
+{
+  "name": "@lousanpang/utils",
+  "type": "module",
+  "exports": {
+    "./add": {
+      "types": "./src/add.ts",
+      "default": "./dist/add.js"
+    }
+  },
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@lousanpang/eslint-config": "workspace:^",
+    "@lousanpang/typescript-config": "workspace:^",
+    "eslint": "^9.9.1",
+    "typescript": "^5.5.4"
+  }
+}

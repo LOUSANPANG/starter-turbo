@@ -1,0 +1,17 @@
+{
+  "name": "starter-turbo",
+  "private": true,
+  "packageManager": "pnpm@9.2.0",
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "lint:fix": "turbo lint:fix",
+    "format": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@lousanpang/eslint-config": "workspace:*",
+    "eslint": "^9.9.1",
+    "turbo": "^2.0.14"
+  }
+}
